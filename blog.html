@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--
+	Road Trip by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+					<script src="entrycount.js"></script>
+		<title>BLOG | LEI 137</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header" class="alt">
+			<div class="logo"><a href="index.html">THE LEI 137 BLOG</a></div>
+				<a href="#menu"><span>Menu</span></a>
+			</header>
+
+		<!-- Nav -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="lei.html">THE LEI</a></li>
+				<li><a href="blog.html">OUR BLOG</a></li>
+				<li><a href="about.html">ABOUT LEI 137</a></li>
+			</ul>
+		</nav>
+
+		<!-- Content -->
+		<!--
+			Note: To show a background image, set the "data-bg" attribute below
+			to the full filename of your image. This is used in each section to set
+			the background image.
+		-->
+			<section id="post" class="wrapper bg-img" data-bg="banner2.jpg">
+				<div class="inner">
+					<article class="box">
+						<header>
+							<h2>Nibh non lobortis mus nibh</h2>
+							<p>01.01.2017 By <a href="#">Sophia</a></p>
+						</header>
+						<div class="content" id="dacontent">
+
+							</div>
+						<p><a href="#">Comments</a></p>
+						<footer>
+							<ul class="actions">
+								<li><a href="#" onclick="goForward()" id="newer" class="button alt icon fa-chevron-left"><span class="label">Previous</span></a></li>
+								<li><a href="#" onclick="goBackward()" id="older" class="button alt icon fa-chevron-right"><span class="label">Next</span></a></li>
+							</ul>
+						</footer>
+					</article>
+				</div>
+			</section>
+
+<script>
+var entrynumber=1;
+function goForward(){
+	var next=entrynumber+1;
+if(entrynumber<allentries.length){
+document.getElementById("newer").href="entry"+;
+}
+}
+function goBackward(){
+	var previous=entrynumber-1;
+if(entrynumber>1){
+	document.getElementById("older").href="about.html";
+}
+}
+</script>
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+
+					<ul class="icons">
+						<li><a href="#" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon round fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon round fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+
+					<div class="copyright">
+						&copy; LEI 137. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="#">Credits</a>.
+					</div>
+
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+		<!--	<script>
+			$(function(){
+			$('#dacontent').load('about.html #meow');
+		});
+			</script> -->
+
+	</body>
+</html>
